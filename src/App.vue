@@ -2,16 +2,19 @@
   <div id="app">
     <h1>Post Api Call in VueJs</h1>
     <PostApi />
+    <TemplateRef />
   </div>
 </template>
 
 <script>
-import PostApi from './components/PostApi.vue'
+import PostApi from './components/PostApi.vue';
+import TemplateRef from './components/TemplateRef.vue'
 
 export default {
   name: 'App',
   components: {
-    PostApi
+    PostApi,
+    TemplateRef
   }
 }
 </script>
