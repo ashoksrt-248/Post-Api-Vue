@@ -49,6 +49,8 @@ import axios from "axios"
   box-sizing: border-box;
   border: 2px solid orange;
   border-radius: 3px;
+  background-color: #3CBC8D;
+  color: white;
 }
 
 </style>

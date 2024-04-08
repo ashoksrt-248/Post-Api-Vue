@@ -20,6 +20,5 @@
   width: 170px;
   height: 30px;
   color: brown;
-  
 }
 </style>
