@@ -2,19 +2,26 @@
   <div id="app">
     <h1>Post Api Call in VueJs</h1>
     <PostApi />
+    <br />
+    <br />
+    <hr>
     <TemplateRef />
+    <hr>
+    <HoverCounter />
   </div>
 </template>
 
 <script>
 import PostApi from './components/PostApi.vue';
 import TemplateRef from './components/TemplateRef.vue'
+import HoverCounter from './components/HoverCounter.vue'
 
 export default {
   name: 'App',
   components: {
     PostApi,
-    TemplateRef
+    TemplateRef,
+    HoverCounter
   }
 }
 </script>
