@@ -47,6 +47,8 @@ import axios from "axios"
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border: 2px solid orange;
+  border-radius: 3px;
 }
 
 </style>
