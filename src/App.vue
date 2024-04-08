@@ -8,20 +8,24 @@
     <TemplateRef />
     <hr>
     <HoverCounter />
+    <hr>
+    <ClickCounter />
   </div>
 </template>
 
 <script>
 import PostApi from './components/PostApi.vue';
-import TemplateRef from './components/TemplateRef.vue'
-import HoverCounter from './components/HoverCounter.vue'
+import TemplateRef from './components/TemplateRef.vue';
+import HoverCounter from './components/HoverCounter.vue';
+import ClickCounter from './components/ClickCounter.vue';
 
 export default {
   name: 'App',
   components: {
     PostApi,
     TemplateRef,
-    HoverCounter
+    HoverCounter,
+    ClickCounter
   }
 }
 </script>
